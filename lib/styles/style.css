@@ -1,0 +1,207 @@
+div.layout {
+	width: 100%;
+	height: 100%;
+}
+html,body {height:100%;}
+body {
+	font:10px/1.231 "Lucida Grande",Verdana,arial,helvetica,clean,sans-serif;
+	*font-size:small;
+	*font:x-small;
+}
+/* Custom icon */
+.icon-custom-filter { width:16px; height:16px; background-image: url(../lib/images/filter.png); background-position: 0 0;}
+
+/** BASIC CONTAINER **/
+body {
+	background-color:grey;
+}
+div.header {
+	background-color: #348075;
+	color: #FFFFFF;
+}
+div.navigation {
+	background-color: #F0F0F0;
+	text-transform: uppercase;
+}
+div.content {
+	background-color: grey;
+}
+/** BASIC CONTAINER **/
+
+/** NAVIGATION TAB  **/
+ul#user_tab li {
+	display:inline;
+	padding:0 4px;
+/*	font-size: 12px;*/
+}
+ul#user_tab li a {
+	text-decoration: none;
+}
+/** NAVIGATION TAB  **/
+
+/** jqGRID CUSTOM CSS **/
+tr.ui-state-highlight > td.ams-no-edit {
+	background-color: #F4F8FD;
+	cursor: pointer;
+}
+td.ams-no-edit {
+	background-color: lightyellow;
+/*	background-color: #FFFF81;*/
+}
+td.ams-jobplan {
+	background-color: #CAE4F1;
+}
+td.ams-pmjobs {
+	background-color: #A6CB45;
+}
+/** jqGRID CUSTOM CSS **/
+
+/** Asset Register Details **/
+.ams-widget {
+	padding:0px 0 5px 0;
+}
+.ams-widget-header{
+	padding:5px;
+}
+.ams-widget-header span {
+	font-size:1em;
+	padding:5px;
+	font-weight: bold;
+}
+.ams-widget-content {
+/*	font-size:0.9em;*/
+	padding:2px 3px;
+}
+.ams-widget-content p {
+	height: 20px;
+}
+.ui-autocomplete {
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right:20px;
+	background: #EAF4FD;
+	color : #fff;
+}
+form#location input[type=text],
+form#pid input[type=text],
+form#md input[type=text],
+form#vd input[type=text] {
+	float: right;
+	width: 55%;
+}
+form#location input[type=checkbox],
+form#pid input[type=checkbox],
+form#md input[type=checkbox],
+form#vd input[type=checkbox] {
+	float:right;
+	margin-right: 53%;
+}
+form#followup textarea {
+	width: 100%; 
+	margin: 0; 
+	padding: 0; 
+	border-width: 1px;
+}
+p.status_tag {float:left;}
+p.aramis_tag {float:right;}
+
+.ams-saving-img {
+	background: url(../images/ajax-loader.gif) no-repeat right;
+}
+.ams-saved-img {
+	background: url(../images/check.gif) no-repeat right;
+}
+.ams-failed-img {
+	background: url(../images/no.gif) no-repeat right;
+}
+/*#ams-clone-tool button {
+	font-size: 0.9em;
+}
+#ams-clone-tool .columns > .column {
+	margin-bottom:4px;
+}
+#ams-clone-tool .container {
+	padding: 0 5px;
+}
+#ams-clone-tool .columns > .column > .container input[type=text] {
+	width: 95%;
+}
+.ams-clone-table input[type=text]
+{
+	width: 95%;
+}
+*/
+.ams-clone-action,
+.ams-clone-unit {
+	text-align:center;
+}
+div.ams-clone-table input[type=text]
+{
+	width: 95%;
+}
+div.ams-clone-table > .column > .container {
+	padding:5px;
+}
+pre.ams-ascii {
+    font-family: Helvetica,"Lucida Console","Andale Mono","Courier New","Courier",monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+}
+.ui-widget {
+    font-size: 9px;
+    font-family: Helvetica, Verdana;
+}
+
+div#craft,
+div#materials,
+div#tools,
+div#description {
+    padding-top:6px;
+}
+/*fieldset#asset-module  {
+	border: 1px solid black;
+
+}
+fieldset#asset-module legend {
+	margin-left:10px;
+	font-size:120%;
+	color:black;
+}
+fieldset#asset-module select {
+	float:right;
+}
+fieldset#asset-module input[type=checkbox] {
+	float:right;
+	margin-right:25px;
+}
+fieldset#asset-module table {
+	margin:0;
+	padding:5px;
+	width:92%;
+}
+fieldset#asset-module table td {
+	padding:0 5px;
+}
+fieldset#asset-module input {
+	float:right;
+}
+*/
+/** Asset Register Details **/
+
+/** Change highlight color when click **/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight , tr.ui-state-highlight > td.ams-no-edit
+{
+    background: none repeat scroll 0 0 #808080;
+    border: 1px solid #D2DBF4;
+    border-radius: 0 0 0 0 !important;
+    color: #fff;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, 
+.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+	background : #C6C6C6;
+}

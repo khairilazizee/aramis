@@ -1,0 +1,60 @@
+html,body { height:100%;}
+/** LOGIN FORM  **/ 
+div.login_form,
+div.login_error {
+	width: 300px;
+	background: #f0f0f0;
+	border: 1px solid white;
+	padding: 1em;
+	-moz-border-radius: 3px;
+}
+div#login_error {
+	margin: 10px auto 0;
+	color: red;
+	text-transform: uppercase;
+}
+div.login_form h1 {
+	font-size:150%;
+	background-color: #f0f0f0;
+	text-align:center;
+	margin: 0px 0px 10px;
+}
+div.login_footer {
+	background-color: #348075;
+	color: #FFFFFF;
+	bottom:0;
+	position:absolute;
+}
+div.login_form input[type=text], div.login_form input[type=password] {
+	display: block;
+	margin: 0 0 1em 0;
+	width: 292px;
+	border: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 1em;
+}
+div.login_form select {
+	display: block;
+	margin: 0 0 1em 0;
+	width: 300px;
+	border: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 0.5em;
+}
+div.login_form input[type=submit], div.login_form a {
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+	background: #348075;
+	color: white;
+	box-shadow: 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+	cursor: pointer;
+}
+/** LOGIN FORM  **/
